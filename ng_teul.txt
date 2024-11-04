@@ -1,0 +1,1894 @@
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tpk_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "" .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/trendi_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trend"@en , "Trend"@sv , "Trendi"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/trendi_yht> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13bs/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13bs/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13bs/ryhm1>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/ryhm1> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nk/kumul_vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kumul_vuosimuutos> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kumul_3kk_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "%" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/trendi_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/14n8/tol>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/tol> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/13nz>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Testi"@sv , "Testi"@fi , "Testi"@en ;
+        <http://purl.org/dc/elements/1.1/language>
+                "fi"^^<http://www.w3.org/2001/XMLSchema#language> , "en"^^<http://www.w3.org/2001/XMLSchema#language> , "sv"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Testi"@en , "Testi"@fi , "Testi"@sv ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                "petri.koivisto@myorg"@en , "petri.koivisto@myorg"@sv , "petri.koivisto@myorg"@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> , <http://www.myorg/rdf/data/gsimsf/Variable/tol> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2022-06-01T14:14:47.267+03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Partanel" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "13nz__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "Statistikcentralen, industrins orderingång"@sv , "Tilastokeskus, teollisuuden uudet tilaukset"@fi , "Statistics Finland, new orders in manufacturing "@en ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                "Näringsgrenar inom fabriksindustrin som ingår i industrins orderingång: 13, 14, 20, 21, 24, 25, 26, 27, 28, 29 och 30\r\n"@sv , "Industries belonging to manufacturing in new orders in manufacturing:13, 14, 20, 21, 24, 25, 26, 27, 28, 29 and 30"@en , "Teollisuuden uusien tilauksien tehdasteollisuuteen kuuluvat toimialat: 13, 14, 20, 21, 24, 25, 26, 27, 28, 29 ja 30"@fi .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/kausit_kkmuutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausit_kkmuutos> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/alk_liuk_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                7 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_liuk_muutos> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyop_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "%" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13p9/alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alkuperainen> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/111h/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "None" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/alk_liuk_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                7 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_liuk_muutos> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nk/vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/vuosimuutos> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13p9/tyopaivakorjattu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyopaivakorjattu> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/tyopaivakorjattu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyopaivakorjattu> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_skumu_muuto>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "" .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/revision>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/revision> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/tol>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "toimiala_17_20220818" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13p9/kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausitasoitettu> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/kausi_yht>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausi_yht> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14mi/__information>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasNumericalVariable>
+                <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/alk_kumu_muutos> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/alk_liuk_muutos> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/Kausitasoitettu> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/Alkuperainen> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/muutosprosentti> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/tyopaivakorjattu> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/Trendi> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                99 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Contents" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> , <http://www.myorg/rdf/data/gsimsf/Variable/Trendi> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_liuk_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/Alkuperainen> , <http://www.myorg/rdf/data/gsimsf/Variable/tyopaivakorjattu> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_kumu_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/Kausitasoitettu> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Indeksi_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxFile/13bs>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDatabaseTableSerie>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                "." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "vv" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/13bs/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/13bs/ryhm1> , <http://www.myorg/rdf/data/pxt/PxDimension/13bs/__information> ;
+        <http://www.myorg/rdf/data/pxt/hasReferenceFrequency>
+                "N/A" ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "new" ;
+        <http://www.myorg/rdf/data/pxt/hasUpdateFrequency>
+                "N/A" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/13bs> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "13bs" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyopaivakorjattu>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13nw/toimiala>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/testimuuttuja>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                0 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/testimuuttuja> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/vuosimuutos> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13p9/revision>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/revision> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                3 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/revision> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/kumul_3kk_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kumul_3kk_muutos_en"@en , "kumul_3kk_muutos_sv"@sv , "kumul_3kk_muutos_fi"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kumul_3kk_muutos> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13nw/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "None" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/111h/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/111h/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/111h/toimiala>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxFile/14mi>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "http://inexist1.myorg:8080/exist/rest/db/Tilastot/Teollisuuden+uudet+tilaukset/Aineistokuvaukset/Taulukointi/teul_201800_tau_000_001.xml" ;
+        <http://www.myorg/rdf/data/pxt/hasDatabaseTableSerie>
+                "teul_s" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                "." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/14mi/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/14mi/__information> , <http://www.myorg/rdf/data/pxt/PxDimension/14mi/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/hasReferenceFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "production" ;
+        <http://www.myorg/rdf/data/pxt/hasUpdateFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/14mi> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "14mi" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Trendi_km>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi_km> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/kumul_vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "kumul_vuosimuutos_en"@en , "kumul_vuosimuutos_sv"@sv , "kumul_vuosimuutos_fi"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kumul_vuosimuutos> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/Alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Original index"@en , "mmmUrsprungligt index"@sv , "mmmAlkuperäinen indeksisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Alkuperainen> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/14mi/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13bs/analyysi1>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                0 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/analyysi1> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/kausit_kkmuutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Change of the seasonally adjusted index series from the previous month, %"@en , "Förändring av säsongrensad indexserie från föregående månad, %"@sv , "Kausitasoitetun indeksisarjan muutos ed. kuukaudesta, %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausit_kkmuutos> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/alk_liuk_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Year-on-year change by three-month period of the original index series, %"@en , "vvvvTre månaders glidande årsförändring av ursprunglig indexserie, %"@sv , "vvvvAlkuperäisen indeksisarjan kolmen kuukauden liukuva vuosimuutos, %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_liuk_muutos> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/Alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Alkuperainen> .
+
+<http://www.myorg/rdf/data/pxt/PxFile/13nw>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDatabaseTableSerie>
+                "teul_s" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                "." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "None" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/13nw/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/13nw/__information> ;
+        <http://www.myorg/rdf/data/pxt/hasReferenceFrequency>
+                "es" ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "validated" ;
+        <http://www.myorg/rdf/data/pxt/hasUpdateFrequency>
+                "e" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/13nw> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "13nw" .
+
+<http://www.myorg/rdf/data/pxt/PxFile/13p9>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                "." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/13p9/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/13p9/revision> , <http://www.myorg/rdf/data/pxt/PxDimension/13p9/tol> , <http://www.myorg/rdf/data/pxt/PxDimension/13p9/__information> ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "retired" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/13p9> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "13p9" .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/14n8/revision>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/revision> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Year-on-year change of the original index series, %"@en , "mmmmmmÅrsförändring av ursprunglig indexserie, %"@sv , "mmmmAlkuperäisen indeksisarjan vuosimuutos, %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , "Alkuperäisen indeksipisteluvun muutos vuoden takaisesta prosentteina"@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti> .
+
+<http://www.myorg/rdf/data/pxt/PxFile/111h>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "http://inexist1.myorg:8080/exist/rest/db/Tilastot/Teollisuuden+uudet+tilaukset/Aineistokuvaukset/Taulukointi/teul_201800_tau_000_001.xml" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                "." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/111h/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/111h/__information> , <http://www.myorg/rdf/data/pxt/PxDimension/111h/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "retired" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/111h> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "111h" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/14mi/toimiala>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxFile/14n8>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDatabaseTableSerie>
+                "teul_s" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                "." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/14n8/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/14n8/revision> , <http://www.myorg/rdf/data/pxt/PxDimension/14n8/tol> , <http://www.myorg/rdf/data/pxt/PxDimension/14n8/__information> ;
+        <http://www.myorg/rdf/data/pxt/hasReferenceFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "production" ;
+        <http://www.myorg/rdf/data/pxt/hasUpdateFrequency>
+                "kk" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/14n8> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "14n8" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/Trendi>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                4 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14n8/__information>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasNumericalVariable>
+                <http://www.myorg/rdf/data/pxt/PxNumericalVariable/14n8/muutosprosentti> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                99 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Contents" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/alk_skumu_muuto>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cumulative year-on-year change of the original index series, %"@en , "Kumulativ årsförändring av ursprunglig indexserie, %"@sv , "Alkuperäisen indeksisarjan kumulatiivinen vuosimuutos, %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_skumu_muuto> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nk/kumul_3kk_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kumul_3kk_muutos> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/Kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Seasonally adjusted index series"@en , "mmmSäsongrensad indexserie"@sv , "mmmmKausitasoitettu indeksisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Kausitasoitettu> .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/13bu>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://purl.org/dc/elements/1.1/language>
+                "en"^^<http://www.w3.org/2001/XMLSchema#language> , "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                ""@en , ""@fi , ""@sv ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2021-11-23T10:54:11.701+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Karna" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "13bu__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "Statistikcentralen, industrins orderingång"@sv , "Statistics Finland, new orders in manufacturing"@en , "Tilastokeskus, teollisuuden uudet tilaukset"@fi ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                ""@en , ""@sv , ""@fi .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/Trendi_km>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Change of trend from previous month %"@en , "Trendförändring från föregående månad %"@sv , "Trendin muutos ed. kuukaudesta %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi_km> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/testimuuttuja>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "" .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14mi/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/14mi/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausit_kkmuutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kumul_vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "%" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_liuk_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "%" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/alk_kumu_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                6 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_kumu_muutos> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/Trendi>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trend series"@en , "mmmmmmmTrendserie"@sv , "mmmTrendisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                "It has generally been though that time series on economic trends are made up of different elements, or components:#1. Trend cycle (trend in brief) describes the long-term development and the movements caused by economic cycles in a time series.#2. Seasonal variation (caused by e.g. changes of season) describes annually recurring, almost regular changes.#3. As its name implies, irregular random variation occurs totally randomly. It cannot be included in the aforementioned components.#Seasonal adjustment means the"@en , "Traditionellt har man tänkt att konjunkturtidsserier består av olika delar, dvs. komponenter.#1. En trendcykel (kortare trend) beskriver tidsseriens utveckling under en längre period och förändringar på grund av konjunkturen.#2. Med säsongvariation avses den nästan regelbundna variation som återkommer årligen och som beror på t.ex. årstidsväxlingar.#3. Oregelbunden slumpvariation är som namnet anger helt slumpmässig. Den kan inte placeras i de föregående komponenterna.#Med säsongrensning avses estimering av"@sv , "Perinteisesti on ajateltu, että suhdanneaikasarjat koostuvat eri osista, eli komponenteista:#1. Trendisykli (lyhyemmin trendi) kuvaa aikasarjan pitkän aikavälin kehitystä ja suhdanteista johtuvaa liikehdintää.#2. Kausivaihtelu kuvaa (esimerkiksi vuodenaikojen vaihtelusta johtuvaa) vuosittain toistuvaa, miltei säännöllistä vaihtelua.#3. Epäsäännöllinen satunnaisvaihtelu on nimensä mukaisesti täysin satunnaista. Sitä ei voi sijoittaa edeltäviin komponentteihin.#Kausitasoituksella tarkoitetaan kausivaihtelun estimoimista ja sen vaikutuksen poistamista"@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Alkuperainen> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13nz/tol>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/tol> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/111h/aggrekaatti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/tpk_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Annual change of the working day adjusted index series, %"@en , "Årsförändring av arbetsdagskorrigerad indexserie, %"@sv , "Työpäiväkorjatun indeksisarjan vuosimuutos %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tpk_muutos> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13p9/__information>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasNumericalVariable>
+                <http://www.myorg/rdf/data/pxt/PxNumericalVariable/13p9/muutosprosentti> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                99 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Contents" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/tol>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/tol> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13nw/__information>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasNumericalVariable>
+                <http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/testimuuttuja> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                99 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Contents" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/testimuuttuja> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/tyopaivakorjattu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                3 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyopaivakorjattu> .
+
+<http://www.myorg/rdf/data/pxt/PxFile/13nz>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                ".." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/13nz/timeperiod> , <http://www.myorg/rdf/data/pxt/PxDimension/13nz/tol> ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "new" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/13nz> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "13nz" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/alk_kumu_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                6 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_kumu_muutos> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/analyysi1>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "" .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/tyop_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Working day adjusted series"@en , "Arbetsdagskorrigerade serie"@sv , "Työpäiväkorjattu sarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyop_yht> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Indeksi_yht>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Indeksi_yht> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "vuosimuutos_en"@en , "vuosimuutos_sv"@sv , "vuosimuutos_fi"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/vuosimuutos> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/tyop_yht>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyop_yht> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/trendi>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Trendi>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                4 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/tyopaivakorjattu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                3 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyopaivakorjattu> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13nw/toimiala>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaatti>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "toimiala_17_20220818" .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/aggrekaatti>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "aggrekaatti"@en , "aggrekaatti"@sv , "aggrekaatti"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaatti> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/Alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Alkuperainen> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                5 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13p9/aggrekaattii>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13p9/aggrekaatti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/toimiala>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Standard Industrial Classification (TOL 2008)"@en , "Näringsgren (TOL 2008)"@sv , "Toimiala (TOL 2008)"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/toimiala> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/alk_skumu_muuto>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_skumu_muuto> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/111h/aggrekaatti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaatti> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Seasonally adjusted index series"@en , "Säsongrensad indexserie"@sv , "Kausitasoitettu indeksisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausitasoitettu> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Kausitasoitettu> .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/13bs>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                "2024-03-18T09:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "sdf"@fi , "sdf"@en , "sdf"@sv ;
+        <http://purl.org/dc/elements/1.1/language>
+                "en"^^<http://www.w3.org/2001/XMLSchema#language> , "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "sdf"@fi , "sdf"@sv , "sdf"@en ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> , <http://www.myorg/rdf/data/gsimsf/Variable/ryhm1> , <http://www.myorg/rdf/data/gsimsf/Variable/analyysi1> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2024-11-04T08:37:22.690+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Miettinj" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "13bs__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "new orders in manufacturing"@en , "teollisuuden uudet tilaukset"@fi , " industrins orderingång"@sv ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                ""@en , ""@sv , ""@fi .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausi_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13bs/ryhm1>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13bs/ryhm1> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/ryhm1> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13bu/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "" .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                5 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/revision>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Revidering"@sv , "Revision"@en , "Tarkentuminen"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/revision> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/tpk_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tpk_muutos> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/trendi>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Trend series"@en , "Trendserie"@sv , "Trendisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/trendi> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/aggrekaattii>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                ""@en , ""@sv , ""@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaattii> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/Trendi>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/alk_kumu_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_kumu_muutos> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/111h/__information>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasNumericalVariable>
+                <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/tyopaivakorjattu> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Alkuperainen> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Trendi> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/Kausitasoitettu> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/alk_kumu_muutos> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/muutosprosentti> , <http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/alk_liuk_muutos> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                99 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Contents" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/Alkuperainen> , <http://www.myorg/rdf/data/gsimsf/Variable/tyopaivakorjattu> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_kumu_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/Kausitasoitettu> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_liuk_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> , <http://www.myorg/rdf/data/gsimsf/Variable/Trendi> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14mi/Kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Kausitasoitettu> .
+
+<http://www.myorg/rdf/data/pxt/PxFile/111a>
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                ".." .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ajankohta"@fi , ""@en , ""@sv ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/14n8/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "None" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/alkuperainen>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Original index"@en , "Ursprungligt index"@sv , "Alkuperäinen indeksisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alkuperainen> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/111h/trendi_yht>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/trendi_yht> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/analyysi1>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "asdf"@en , "sadf"@sv , "MOD"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , "MOD"@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/analyysi1> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13nz/tol>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13nz/tol> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/tol> .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/14mi>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                "2024-03-08T09:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "New orders in manufacturing (2021=100) "@en , "Teollisuuden uudet tilaukset (2021=100) "@fi , "Industrins orderingång (2021=100) "@sv ;
+        <http://purl.org/dc/elements/1.1/language>
+                "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "en"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "New orders in manufacturing (2021=100) "@en , "Industrins orderingång (2021=100) "@sv , "Teollisuuden uudet tilaukset (2021=100) "@fi ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/toimiala> , <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_liuk_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/Alkuperainen> , <http://www.myorg/rdf/data/gsimsf/Variable/Trendi> , <http://www.myorg/rdf/data/gsimsf/Variable/tyopaivakorjattu> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_kumu_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> , <http://www.myorg/rdf/data/gsimsf/Variable/Kausitasoitettu> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2024-11-04T08:37:24.487+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Miettinj" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "14mi__of_002" , "14mi__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "teollisuuden uudet tilaukset"@fi , "new orders in manufacturing "@en , " industrins orderingång"@sv ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                "The statistic on new orders in manufacturing includes the following industries :17, 20, 21, 24, 25, 26, 27, 28, 29 and 30."@en , "Statistiken över industrins orderingång omfattar följande näringsgrenar: 17, 20, 21, 24, 25, 26, 27, 28, 29 och 30."@sv , "Teollisuuden uudet tilaukset -tilastoon kuuluvat seuraavat toimialat: 17, 20, 21, 24, 25, 26, 27, 28, 29 ja 30."@fi .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/alk_kumu_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cumulative year-on-year change of the original index series, %"@en , "mmmmmmmKumulativ årsförändring av ursprunglig indexserie, %"@sv , "mmmAlkuperäisen indeksisarjan kumulatiivinen vuosimuutos, %"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_kumu_muutos> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13p9/tol>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/tol> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/tol> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi_km>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "" .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13nz/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaattii>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Trendi>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "indeksipisteluku" .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/vuosimuutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "%" .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/aggrekaattii>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaattii> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/aggrekaatti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "nominal" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/aggrekaatti> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/alk_liuk_muutos>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_liuk_muutos> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/111h/toimiala>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/111h/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/toimiala> .
+
+<http://www.myorg/rdf/data/pxt/PxCodedVariable/13bs/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxCodedVariable> ;
+        <http://www.myorg/rdf/data/pxt/hasElimination>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasMap>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDomain>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasScaleType>
+                "None" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/prependCode>
+                false .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13bu/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13bu/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14n8/tol>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/14n8/tol> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/tol> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/tol>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Standard Industrial Classification (TOL 2008)"@en , "Näringsgren (TOL 2008)"@sv , "Toimiala (TOL 2008)"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/tol> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13p9/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/ryhm1>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ryhma"@en , "ryhma"@sv , "ryhma"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasEnumeratedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/ryhm1> .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/toimiala>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "toimiala_17_20220818" .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/kausi_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Seasonally adjusted series"@en , "Säsongrensad serie"@sv , "Kausitasoitettu sarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/kausi_yht> .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/13nw>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                "2024-03-08T09:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "asdf"@fi , "asdf"@en , "asdf"@sv ;
+        <http://purl.org/dc/elements/1.1/language>
+                "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> , "en"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "asdf"@fi , "asdf"@sv , "asdf"@en ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                "asdf"@fi , "asdf"@en , "asdf"@sv ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/testimuuttuja> , <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2024-11-04T08:37:23.736+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Miettinj" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "13nw__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "teollisuuden uudet tilaukset"@fi , " industrins orderingång"@sv , "new orders in manufacturing "@en ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                ""@en , ""@sv , ""@fi .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/13p9>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                "2022-09-09T09:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "New orders in manufacturing, data revisions (2015=100)"@en , "Teollisuuden uudet tilaukset, tietojen tarkentuminen (2015=100)"@fi , "Industrins orderingång, revidering av uppgifter (2015=100)"@sv ;
+        <http://purl.org/dc/elements/1.1/language>
+                "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> , "en"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "New orders in manufacturing (2015=100)"@en , "Teollisuuden uudet tilaukset (2015=100)"@fi , "Industrins orderingång (2015=100) "@sv ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                "volyymi.indeksi@myorg"@en , "volyymi.indeksi@myorg"@sv , "volyymi.indeksi@myorg"@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> , <http://www.myorg/rdf/data/gsimsf/Variable/tol> , <http://www.myorg/rdf/data/gsimsf/Variable/revision> , <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2024-11-04T08:37:23.272+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Miettinj" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "13p9__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "teollisuuden uudet tilaukset"@fi , " industrins orderingång"@sv , "new orders in manufacturing "@en ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                ""@en , ""@sv , ""@fi .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/14n8/muutosprosentti>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/decimals>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasPrecision>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/muutosprosentti> .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/ryhm1>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "koulutusaste_17_20180101" .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/111h>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                "2018-03-09T09:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "New orders in manufacturing (2015=100) "@en , "Teollisuuden uudet tilaukset (2015=100) "@fi , "Industrins orderingång (2015=100) "@sv ;
+        <http://purl.org/dc/elements/1.1/language>
+                "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> , "en"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Teollisuuden uudet tilaukset (2015=100) "@fi , "New orders in manufacturing (2015=100) "@en , "Industrins orderingång (2015=100) "@sv ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                4 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_liuk_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/Kausitasoitettu> , <http://www.myorg/rdf/data/gsimsf/Variable/tyopaivakorjattu> , <http://www.myorg/rdf/data/gsimsf/Variable/toimiala> , <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> , <http://www.myorg/rdf/data/gsimsf/Variable/alk_kumu_muutos> , <http://www.myorg/rdf/data/gsimsf/Variable/Trendi> , <http://www.myorg/rdf/data/gsimsf/Variable/Alkuperainen> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2024-11-04T08:37:25.276+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Miettinj" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "111h__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                " industrins orderingång"@sv , "new orders in manufacturing"@en , "teollisuuden uudet tilaukset"@fi ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                "The statistic on new orders in manufacturing includes the following industries :17, 20, 21, 24, 25, 26, 27, 28, 29 and 30."@en , "Teollisuuden uudet tilaukset -tilastoon kuuluvat seuraavat toimialat: 17, 20, 21, 24, 25, 26, 27, 28, 29 ja 30."@fi , "Statistiken över industrins orderingång omfattar följande näringsgrenar: 17, 20, 21, 24, 25, 26, 27, 28, 29 och 30."@sv .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14n8/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/14n8/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13nw/Kausitasoitettu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Kausitasoitettu> .
+
+<http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/alk_kumu_muutos>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/DescribedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasAggregationMethod>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasProcessingRules>
+                "" ;
+        <http://www.myorg/rdf/data/gsimsf/hasUnit>
+                "%" .
+
+<http://www.myorg/rdf/data/cubemeta/CubeMeta/14n8>
+        a       <http://www.myorg/rdf/ontologies/cubemeta/CubeMeta> ;
+        <http://purl.org/dc/elements/1.1/created>
+                "2024-06-10T09:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Industrins orderingång, revidering av uppgifter (2021=100)"@sv , "New orders in manufacturing, data revisions (2021=100)"@en , "Teollisuuden uudet tilaukset, tietojen tarkentuminen (2021=100)"@fi ;
+        <http://purl.org/dc/elements/1.1/language>
+                "sv"^^<http://www.w3.org/2001/XMLSchema#language> , "en"^^<http://www.w3.org/2001/XMLSchema#language> , "fi"^^<http://www.w3.org/2001/XMLSchema#language> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Industrins orderingång (2021=100) "@sv , "New orders in manufacturing (2021=100)"@en , "Teollisuuden uudet tilaukset (2021=100)"@fi ;
+        <http://www.myorg/rdf/data/cubemeta/announced>
+                ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/contact>
+                "volyymi.indeksi@myorg"@en , "volyymi.indeksi@myorg"@sv , "volyymi.indeksi@myorg"@fi ;
+        <http://www.myorg/rdf/data/cubemeta/decimals>
+                0 ;
+        <http://www.myorg/rdf/data/cubemeta/hasStatisticalProgramme>
+                "teul" ;
+        <http://www.myorg/rdf/data/cubemeta/hasVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/muutosprosentti> , <http://www.myorg/rdf/data/gsimsf/Variable/revision> , <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> , <http://www.myorg/rdf/data/gsimsf/Variable/tol> ;
+        <http://www.myorg/rdf/data/cubemeta/isOfficialStatistics>
+                true ;
+        <http://www.myorg/rdf/data/cubemeta/lastUpdated>
+                "2024-11-04T08:37:25.982+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.myorg/rdf/data/cubemeta/modifier>
+                "Miettinj" ;
+        <http://www.myorg/rdf/data/cubemeta/refersToOutputFile>
+                "14n8__of_001" ;
+        <http://www.myorg/rdf/data/cubemeta/source>
+                "new orders in manufacturing "@en , "teollisuuden uudet tilaukset"@fi , " industrins orderingång"@sv ;
+        <http://www.myorg/rdf/data/cubemeta/tableNote>
+                ""@fi , ""@en , ""@sv .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/Indeksi_yht>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Original series"@en , "Ursprunglig serie"@sv , "Alkuperäinen sarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/Indeksi_yht> .
+
+<http://www.myorg/rdf/data/pxt/PxNumericalVariable/13p9/trendi>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxNumericalVariable> ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/trendi> .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/testimuuttuja>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "testimuuttuja"@en , "testimuuttuja"@sv , "MOD"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , "MOD"@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/testimuuttuja> .
+
+<http://www.myorg/rdf/data/gsimsf/EnumeratedValueDomain/revision>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/EnumeratedValueDomain> ;
+        <http://www.myorg/rdf/data/gsimsf/hasStatId>
+                "revisiotapa_1_20201103" .
+
+<http://www.myorg/rdf/data/gsimsf/Variable/tyopaivakorjattu>
+        a       <http://www.myorg/rdf/ontologies/gsimsf/Variable> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Working day adjusted index series"@en , "mmmmmmmmmmArbetsdagskorrigerad indexserie"@sv , "mmmmmTyöpäiväkorjattu indeksisarja"@fi ;
+        <http://purl.org/dc/elements/1.1/description>
+                ""@en , ""@sv , ""@fi ;
+        <http://www.myorg/rdf/data/gsimsf/hasDescribedValueDomain>
+                <http://www.myorg/rdf/data/gsimsf/DescribedValueDomain/tyopaivakorjattu> .
+
+<http://www.myorg/rdf/data/pxt/PxFile/13bu>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxFile> ;
+        <http://www.myorg/rdf/data/pxt/hasAggregatedData>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDataDescription>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasDefaultMissingSymbol>
+                ".." ;
+        <http://www.myorg/rdf/data/pxt/hasFrequency>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/hasPxDimension>
+                <http://www.myorg/rdf/data/pxt/PxDimension/13bu/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasStatus>
+                "new" ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOf>
+                <http://www.myorg/rdf/data/cubemeta/CubeMeta/13bu> ;
+        <http://www.myorg/rdf/data/pxt/primaryLanguage>
+                "fi" ;
+        <http://www.myorg/rdf/data/pxt/pxCopyright>
+                "" ;
+        <http://www.myorg/rdf/data/pxt/tableId>
+                "13bu" .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14n8/revision>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/14n8/revision> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                3 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/revision> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/14mi/toimiala>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/14mi/toimiala> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                2 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Classificatory" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/toimiala> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13nw/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13nw/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13p9/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13p9/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13nz/timeperiod>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasCodedVariable>
+                <http://www.myorg/rdf/data/pxt/PxCodedVariable/13nz/timeperiod> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                1 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Time" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                false ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/timeperiod> .
+
+<http://www.myorg/rdf/data/pxt/PxDimension/13bs/__information>
+        a       <http://www.myorg/rdf/ontologies/pxt/PxDimension> ;
+        <http://www.myorg/rdf/data/pxt/hasNumericalVariable>
+                <http://www.myorg/rdf/data/pxt/PxNumericalVariable/13bs/analyysi1> ;
+        <http://www.myorg/rdf/data/pxt/hasSequenceNumber>
+                99 ;
+        <http://www.myorg/rdf/data/pxt/hasVariableType>
+                "Contents" ;
+        <http://www.myorg/rdf/data/pxt/isHeading>
+                true ;
+        <http://www.myorg/rdf/data/pxt/isPresentationOfVariable>
+                <http://www.myorg/rdf/data/gsimsf/Variable/analyysi1> .
